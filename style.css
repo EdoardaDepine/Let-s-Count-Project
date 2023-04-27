@@ -30,8 +30,7 @@ section {
     gap: 20px
 }
 
-
-/* #verifyButton {
+#countButton {
     margin-bottom: 10px;
     border: none;
     width: 200px;
@@ -39,7 +38,7 @@ section {
     border-radius: 5px;
     font-size: 15px;
     font-style: italic;
-} */
+}
 
 
 /* #result {
