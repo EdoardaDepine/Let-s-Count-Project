@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
-    <title>Vamos contar!</title>
+    <title>Super Contador</title>
 </head>
 
 <body>
@@ -16,10 +16,14 @@
             <h1>Vamos Contar:</h1>
         </header>
         <section>
-            <div id="">
+            <div id="data">
+                <form id="form">
+                    <label>Início: <input type="number" name="start" id="start"></label>
+                    <label>Fim: <input type="number" name="end" id="end"></label>
+                    <label>Passos: <input type="number" name="steps" id="steps"></label>
+                    <input type="button" id="verifyButton" value="Contar">
+                </form>
             </div>
-
-            <input type="button" id="verifyButton" value="Verificar">
 
             <div id="result">
             </div>
